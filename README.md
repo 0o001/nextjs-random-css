@@ -2,12 +2,14 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
+https://mustafauzun.co/blog/css-random-values-api/
+
 Usage;
 ```css
 @import url('https://nextjs-random-css.vercel.app/api/number?range=1,255&count=3&name=color');
 
 body {
-background-color: rgba(var(--color-0), var(--color-1), var(--color-2));
+  background-color: rgba(var(--color-0), var(--color-1), var(--color-2));
 }
 ```
 
